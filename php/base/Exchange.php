@@ -364,6 +364,7 @@ class Exchange {
         'integerPow' => 'integer_pow',
         'reduceFeesByCurrency' => 'reduce_fees_by_currency',
         'safeOrder' => 'safe_order',
+        'fetchBalance' => 'fetch_balance',
     );
 
     public static function split($string, $delimiters = array(' ')) {
